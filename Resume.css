@@ -1,0 +1,59 @@
+nav{
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  font-size: 25pt;
+  top: 0%;
+  right: 5px;
+  background-color: #85ad98;
+  color: #ffffff;
+}
+@media (max-width: 500px){
+  nav{
+    display: none;
+  }
+}
+a{
+  color: #ffffff;
+}
+main{
+  text-align: center;
+  background-color: 85ad98;
+  font-family:rockwell
+}
+h1{
+  font-size: 35pt;
+}
+p{
+  font-size: 13pt;
+}
+th{
+  color: #ffffff
+}
+  td{
+    color: #ffffff
+}
+#welcome-section{
+  background-color:#85ad98;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
+#projects{
+  background-color: #75a38b;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
+#contact{
+  background-color: #66997f;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
